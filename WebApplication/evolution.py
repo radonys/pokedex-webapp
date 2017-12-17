@@ -2,7 +2,7 @@
 
 import cgi
 import cgitb; cgitb.enable()  # for troubleshooting
-import MySQLdb
+import MySQLdb #Should be changed for Python3.
 
 form = cgi.FieldStorage() 
 
